@@ -51,9 +51,9 @@ light.pincode = "031-45-154";
 // set some basic properties (these values are arbitrary and setting them is optional)
 light
   .getService(Service.AccessoryInformation)
-  .setCharacteristic(Characteristic.Manufacturer, "Lisergio")
-  .setCharacteristic(Characteristic.Model, "Ver-1")
-  .setCharacteristic(Characteristic.SerialNumber, "00001");
+  .setCharacteristic(Characteristic.Manufacturer, "polo14va")
+  .setCharacteristic(Characteristic.Model, "Ver-2")
+  .setCharacteristic(Characteristic.SerialNumber, "00002");
 
 // listen for the "identify" event for this Accessory
 light.on('identify', function(paired, callback) {
